@@ -12,7 +12,7 @@ public class CommandKit implements CommandExecutor {
         if (sender instanceof Player) {
             Player player = (Player) sender;
             // Here we need to give items to our player
-            player.sendMessage("You ran the help comman");
+            player.sendMessage(ChatColor.AQUA + "TO claim land get a golden shovel and then right click the land");
         }
         return true;
     }
