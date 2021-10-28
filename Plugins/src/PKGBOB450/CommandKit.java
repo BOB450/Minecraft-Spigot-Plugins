@@ -12,7 +12,14 @@ public class CommandKit implements CommandExecutor {
         if (sender instanceof Player) {
             Player player = (Player) sender;
             // Here we need to give items to our player
-            player.sendMessage(ChatColor.AQUA + "TO claim land get a golden shovel and then right click the land");
+            player.sendMessage(ChatColor.BLACK + "SERVER INFO");
+            player.sendMessage(ChatColor.GOLD + "ON our server the goal is to preserve the vinilla " +
+                    "experience without sacrafising competitiveness and a functoning economy");
+            player.sendMessage(ChatColor.LIGHT_PURPLE + "We achive this by implementing a few plugins and " +
+                    "rules(FOR RULES type /rules) The plugins we use are worldgurd to allow players to claim land" +
+                    "to stop other players from stealing items or grefing builds. we also use shopkeepers witch allows" +
+                    "players to set up shops so they can sell items to other players.");
+
         }
         return true;
     }

@@ -11,8 +11,15 @@ commands:
   heal:
     description: Heals the player to full
     usage: /heal
-    permission: op
+    permission: Main.op
+  rules:
+    description: Displays server rules
+    usage: /rules
+    permission: Main.an
 permissions:
   Main.an:
     description: Allows anyone to use
     default: true
+  Main.op:
+    description: only operators can use
+    default: op
