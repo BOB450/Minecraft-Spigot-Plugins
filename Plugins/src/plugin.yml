@@ -7,4 +7,12 @@ commands:
   helpsmp:
     description: A help command to get players aqainted with the server.
     usage: /helpsmp
-    permission: default
+    permission: Main.an
+  heal:
+    description: Heals the player to full
+    usage: /heal
+    permission: op
+permissions:
+  Main.an:
+    description: Allows anyone to use
+    default: true
