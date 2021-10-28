@@ -24,7 +24,7 @@ public class Main extends JavaPlugin implements Listener {
     public void onPlayerJoin(PlayerJoinEvent event)
     {
         Player plr = event.getPlayer();
-        event.setJoinMessage(ChatColor.AQUA + "Welcome to the server use the /helpsmp command to get more info " + plr.getDisplayName() + ChatColor.RED);
+        event.setJoinMessage(ChatColor.AQUA + "Welcome to the server " + plr.getDisplayName() + " use the /helpsmp command to get more info " );
     return;
     }
 
