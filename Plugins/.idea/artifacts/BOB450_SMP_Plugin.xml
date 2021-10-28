@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BOB450-SMP-Plugin">
+    <output-path>$PROJECT_DIR$/out/artifacts/BOB450_SMP_Plugin</output-path>
+    <root id="archive" name="BOB450-SMP-Plugin.jar">
+      <element id="module-output" name="BOB450-SMP-Plugin" />
+    </root>
+  </artifact>
+</component>

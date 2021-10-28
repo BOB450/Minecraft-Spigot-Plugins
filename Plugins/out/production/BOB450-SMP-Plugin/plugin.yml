@@ -1,0 +1,10 @@
+main: PKGBOB450.Main
+name: BOB450-SMP
+version: '1.0'
+description: A test plugin
+author: BOB450
+commands:
+  helpsmp:
+    description: A help command to get players aqainted with the server.
+    usage: /helpsmp
+    permission: default
