@@ -12,10 +12,10 @@ public class Rules implements CommandExecutor {
             Player player = (Player) sender;
             // Here we need to give items to our player
             player.sendMessage(ChatColor.BLACK + "SERVER RULES");
-            player.sendMessage(ChatColor.RED + ">Dont cheat(dont be a dick)");
-            player.sendMessage(ChatColor.RED + ">Dont Bully or verbally abuse a other member of the server" +
+            player.sendMessage(ChatColor.YELLOW + ">Dont cheat(dont be a dick)");
+            player.sendMessage(ChatColor.YELLOW + ">Dont Bully or verbally abuse a other member of the server" +
                     "(again pretty simple just dont be a dick)");
-            player.sendMessage(ChatColor.RED + ">Dont make lag machines");
+            player.sendMessage(ChatColor.YELLOW + ">Dont make lag machines");
 
         }
         return true;
