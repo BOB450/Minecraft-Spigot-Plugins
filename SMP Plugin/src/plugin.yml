@@ -17,6 +17,10 @@ commands:
     description: Displays server rules
     usage: /rules
     permission: Main.an
+  numOnline:
+    description: Displays the amount of online players
+    usage: /numOnline
+    permission: Main.an
 permissions:
   Main.an:
     description: Allows anyone to use

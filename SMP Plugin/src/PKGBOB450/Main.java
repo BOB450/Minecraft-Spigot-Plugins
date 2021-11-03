@@ -21,6 +21,7 @@ public class Main extends JavaPlugin implements Listener {
         this.getCommand("helpsmp").setExecutor(new CommandKit());
         this.getCommand("heal").setExecutor(new HealC());
         this.getCommand("rules").setExecutor(new Rules());
+        this.getCommand("numOnline").setExecutor(new PlayerCount());
 
 
         super.onEnable();

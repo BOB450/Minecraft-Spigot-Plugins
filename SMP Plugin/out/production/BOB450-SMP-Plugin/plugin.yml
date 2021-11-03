@@ -3,6 +3,7 @@ name: BOB450-SMP
 version: '1.0'
 description: A test plugin
 author: BOB450
+website: thegamearchive.net
 commands:
   helpsmp:
     description: A help command to get players aqainted with the server.
@@ -15,6 +16,10 @@ commands:
   rules:
     description: Displays server rules
     usage: /rules
+    permission: Main.an
+  numOnline:
+    description: Displays the amount of online players
+    usage: /numOnline
     permission: Main.an
 permissions:
   Main.an:
