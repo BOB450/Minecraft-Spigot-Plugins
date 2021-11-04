@@ -22,6 +22,7 @@ public class Main extends JavaPlugin implements Listener {
         this.getCommand("heal").setExecutor(new HealC());
         this.getCommand("rules").setExecutor(new Rules());
         this.getCommand("numOnline").setExecutor(new PlayerCount());
+        this.getCommand("discord").setExecutor(new DiscordLink());
 
 
         super.onEnable();

@@ -21,6 +21,10 @@ commands:
     description: Displays the amount of online players
     usage: /numOnline
     permission: Main.an
+  discord:
+    description: Displays the server discord link
+    usage: /discord
+    permission: Main.an
 permissions:
   Main.an:
     description: Allows anyone to use
