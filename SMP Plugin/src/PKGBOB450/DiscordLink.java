@@ -15,10 +15,8 @@ public class DiscordLink implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (sender instanceof Player) {
             Player player = (Player) sender;
-
-            TextComponent message = new TextComponent("Click me");
-            message.setClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://www.spigotmc.org"));
-            player.sendMessage(String.valueOf(message));
+            String link = "https://discord.gg/YDzNYXW";
+            player.sendMessage("Link to discord server: " + link);
         }
         return true;
     }
