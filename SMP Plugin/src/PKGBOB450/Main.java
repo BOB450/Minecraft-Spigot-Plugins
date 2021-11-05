@@ -32,7 +32,7 @@ public class Main extends JavaPlugin implements Listener {
     public void onPlayerJoin(PlayerJoinEvent event)
     {
         Player plr = event.getPlayer();
-        event.setJoinMessage(ChatColor.AQUA + "Welcome to the Semi Vinila Survival server " + plr.getDisplayName() + " use the /helpsmp command to get more info " );
+        event.setJoinMessage(ChatColor.AQUA + "Welcome to the Semi Vanilla Survival server " + plr.getDisplayName() + " use the /helpsmp command to get more info " );
         //Bukkit.broadcastMessage(plr + "Has joined the serve ");
     return;
     }
